@@ -188,7 +188,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-
+/* Enhanced interactive states for seat selection and hover feedback */ 
 .seat:hover:not(:disabled) {
     transform: scale(1.1);
 }
