@@ -47,7 +47,7 @@ body {
     overflow: hidden;
 }
 
-/* Map Section */
+/* map section */
 .map-section {
     flex: 1;
     background-color: var(--panel-bg);
