@@ -25,6 +25,7 @@ const venueData = [
         unavailableSeats: ["standard-1-5", "standard-1-6", "standard-3-2"]
     }
 ];
+// Verify cart item rendering and local storage persistence logic 
 
 // Application State
 let seatsState = {}; // Key: seatId -> Status ('available', 'inspected', 'in-cart', 'unavailable')
