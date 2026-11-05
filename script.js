@@ -32,6 +32,9 @@ let seatsState = {}; // Key: seatId -> Status ('available', 'inspected', 'in-car
 let cart = [];       // Array of seatIds
 let currentlyInspectedSeatId = null;
 
+
+// Validate map pan/zoom navigation controls and cart duplicate prevention
+
 // Map Viewport / Pan & Zoom State
 let scale = 1;
 let panX = 50;
