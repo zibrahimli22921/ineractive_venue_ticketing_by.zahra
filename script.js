@@ -247,6 +247,9 @@ function updateMapTransform() {
     venueMap.style.transform = `translate(${panX}px, ${panY}px) scale(${scale})`;
 }
 
+
+// Synchronize cart state updates and reset map view parameters
+
 // 7. Bonus 10% - Mouse Wheel Zoom & Click/Drag Panning
 function setupPanAndZoomBonus() {
     viewport.addEventListener('mousedown', (e) => {
