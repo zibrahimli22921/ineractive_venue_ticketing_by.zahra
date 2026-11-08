@@ -58,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
     loadFromLocalStorage();
     renderVenueMap();
     updateMapTransform();
-    setupEventListeners();
     setupPanAndZoomBonus();
 });
 
